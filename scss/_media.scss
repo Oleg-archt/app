@@ -101,6 +101,7 @@
     .shop__slider-price{
         margin-bottom: 10px;
     }
+
 }
 
 @media(max-width:1210px) {
@@ -301,7 +302,22 @@
     .serf__subtitle{
         padding-right: 18px;
     }
+
+    .header__map{
+        svg{
+            width: 500px;
+        }
+    }
     
+}
+
+@media(max-width:810px){
+    .header__map{
+        svg{
+            width: 400px;
+            height: 210px;
+        }
+    }
 }
 
 
@@ -378,8 +394,8 @@
     }
     .header__map{
         svg{
-            width: 600px;
-            height: 320px;
+            width: 400px;
+            height: 300px;
         }
     }
     .headline-left{
@@ -406,6 +422,12 @@
     }
     .shop__slider-content{
         padding-left: 0;
+    }
+    .header__map{
+        svg{
+            width: 350px;
+            height: 250px;
+        }
     }
 }
 
