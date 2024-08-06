@@ -188,6 +188,10 @@
     .sleep .travel-slider__descr{
         background-position: right 10px;
     } 
+
+    .travel-pricing__span{
+        display: none;
+    }
    
 }
 
@@ -366,7 +370,7 @@
         display: block;
         text-align: center;
         padding-right: 0;
-        height: 900px;
+        height: 728px;
     }
     .header__search{
         padding: 15px  0 5px;
