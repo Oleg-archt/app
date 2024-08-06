@@ -104,7 +104,9 @@
     height: 900px;
     text-align: center;
     color: #fff;
-
+    .logo{
+        margin-top: -35px;
+    }
 }
 
 .header__title{
@@ -594,6 +596,7 @@
     width: 200px;
     height: 0;
     white-space: nowrap;
+    color: #979797;
 
 }
 .travel-slider__info-title{
